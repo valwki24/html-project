@@ -1,0 +1,41 @@
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: crimson;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: lavenderblush;
+}
+
+#Home h2 {
+  color: darkred;
+}
+
+#About h2 {
+  color: lightcoral;
+}
+
+#Experience h2 {
+  color: lightcoral;
+}
+#Education h2 {
+  color: crimson;
+}
+
+#Contact h2 {
+  color: crimson;
+}

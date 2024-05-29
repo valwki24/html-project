@@ -4,35 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
     <title>Portfolio</title>
   </head>
   <body>
     <header>
       <nav>
         <ul>
-          <li><a href="#Home"></a>Home</li>
-          <li><a href="#About"></a>About</li>
-          <li><a href="#Education"></a>Education</li>
-          <li><a href="#Experience"></a>Experience</li>
-          <li><a href="#Contact"></a>Contact</li>
+          <li><a href="#Home" class="nav-link">Home</a></li>
+          <li><a href="#About" class="nav-link">About</a></li>
+          <li><a href="#Education" class="nav-link">Education</a></li>
+          <li><a href="#Experience" class="nav-link">Experience</a></li>
+          <li><a href="#Contact" class="nav-link">Contact</a></li>
         </ul>
       </nav>
     </header>
     <!---Home Section-->
-    <section id="Home">
+    <section id="Home" class="section">
       <h2>VALENTINE KIBE</h2>
-      <img src="profile pic html.jpg" />
+      <img src="profile pic html.jpg" class="profile-pic" />
     </section>
-
     <!--About me Section-->
-    <section id="About">
+    <section id="About" class="section">
       <h2>ABOUT ME</h2>
       Hello, I'm Valentine Kibe, an aspiring software developer.
     </section>
 
     <br />
     <!---Education Section-->
-    <section id="Education">
+    <section id="Education" class="section">
       <h2>EDUCATION</h2>
       Gomy Code
       <p><b>Software Development</b></p>
@@ -49,7 +49,7 @@
 
     <br />
     <!--Experience Section-->
-    <section id="Experience">
+    <section id="Experience" class="section">
       <h2>EXPERIENCE</h2>
       HTML
       <p>Git and Github</p>
@@ -57,20 +57,23 @@
     <br />
 
     <!--Contact Section-->
-    <h2>Contact Information</h2>
-    <table border="1">
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Email</th>
-          <th>Phone</th>
-        </tr>
-      </thead>
-    </table>
+    <section id="Contact" class="section">
+      <h2>Contact Information</h2>
+      <table border="1" class="section">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+          </tr>
+        </thead>
+      </table>
+    </section>
     <br />
 
     <!--Footer Section-->
     <footer
+      class="footer"
       style="
         background-color: #ffc0cb;
         color: #fff;
@@ -78,7 +81,7 @@
         text-align: center;
       "
     >
-      <p>@ 2024 Valentine Kibe. All rights reserved.</p>
+      <p>&copy; 2024 Valentine Kibe. All rights reserved.</p>
     </footer>
   </body>
 </html>
